@@ -20,7 +20,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
   Future<void> _login() async {
     if (_namaToko.text.isEmpty || _passwordToko.text.isEmpty) {
-      Fluttertoast.showToast(msg: "Please fill in all fields");
+      Fluttertoast.showToast(msg: "apa gitu");
       return;
     }
 
